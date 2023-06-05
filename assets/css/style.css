@@ -1,0 +1,129 @@
+@import "../css/global.css";
+@import "./partials/fonts.css";
+
+header{
+    position: sticky;
+}
+
+.header{
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header .top-nav{
+    justify-content: space-between;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header div{
+    width: 100%;
+}
+
+.top-nav div{
+    width: 50%;
+}
+
+.top-menu{
+    height: 100%;
+}
+
+.top-menu ul{
+    position: relative;
+}
+
+.header .top-menu ul{
+    margin: 0%;
+    padding: 0%;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+.left-menu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    list-style: none;
+    background-color: blue;
+}
+
+.top-menu ul li{
+    height: 100%;
+}
+
+.left-menu li{
+    position: relative;
+}
+
+.top-menu .left-menu li a{
+    flex-direction: row;
+    font-size: 12px;
+    color: rgb(0, 0, 255);
+    font-weight: 700;
+    padding: 5px;
+}
+
+.top-nav .top-menu .left-menu ul li .last-icon{
+    position: absolute;
+}
+
+.sport-section {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0 50px 0;
+    background-color: rgb(128, 128, 128);
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .row {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-lg-5 {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .enjoy-section h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: Shadow-Into-Light;
+  }
+  
+  .enjoy-section p {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-family: Roboto;
+  }
+  
+  .enjoy-section .right-nav {
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 35px;
+    color: rgb(255, 255, 255);
+  }
